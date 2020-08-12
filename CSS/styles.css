@@ -1,0 +1,173 @@
+body {
+  margin: 0;
+  color: #222831;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  background-color: #cff1ef;
+  font-family: 'Baloo 2', cursive;
+  font-weight: bold;
+}
+
+p {
+  line-height: 1.5;
+  font-family: 'Baloo 2', cursive;
+  font-weight: bold;
+}
+
+a {
+  color: #0f4c75;
+  margin: 10px 10px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #86c4ba
+}
+
+hr {
+  margin: 50px auto;
+  border-style: dotted;
+  border-width: 7px 0 0 0;
+  width: 5%;
+  color: #8ac6d1;
+}
+
+.top-container {
+  padding-top: 90px;
+  background-color: #def4f0;
+  margin-bottom: 40px;
+}
+
+.middle-container {
+  margin-bottom: 60px;
+}
+
+.bottom-container {
+  background-color: #beebe9;
+  padding: 20px 0 10px 0;
+}
+
+.logo1 {
+  height: 120px;
+  width: 350px;
+}
+
+.logo2 {
+  height: 100px;
+  width: 350px;
+}
+
+.face-img {
+  height: 150px;
+  width: 150px;
+}
+
+.web-img {
+  width: 130px;
+  height: 130px;
+  border-radius: 100%;
+  margin-right: 30px;
+  float: left;
+}
+
+.data-img {
+  width: 130px;
+  height: 130px;
+  border-radius: 100%;
+  float: right;
+  margin-left: 20px;
+}
+
+.name {
+  color: #333333;
+  font-family: 'Arizonia', cursive;
+  font-size: 400%;
+  margin-bottom: 5px;
+}
+
+.work {
+  color: #0f4c75;
+  font-family: 'Merienda', cursive;
+  font-size: 100%;
+  margin-bottom: 25px;
+}
+
+.bio {
+  width: 40%;
+  position: relative;
+  left: 30%;
+  right: 30%;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 60px auto 90px auto;
+  text-align: left;
+}
+
+.copyright {
+  color: #0f4c75;
+  font-size: 0.75rem;
+}
+
+.btn {
+  margin-top: 20px;
+  box-shadow: inset -1px 1px 0px -50px #276873;
+  background-color: #599bb3;
+  border-radius: 7px;
+  border: 1px solid #29668f;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Verdana;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 8px 44px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #3d768a;
+}
+
+.btn:hover {
+  background-color: #408c99;
+}
+
+.btn:active {
+  position: relative;
+  top: 1px;
+}
+
+@media screen and (max-width: 1000px) {
+  a {
+    font-size: 0.5rem;
+  }
+
+  .web-img {
+    width: 100px;
+    height: 100px;
+    float: none;
+    margin: auto;
+  }
+
+  .data-img {
+    width: 100px;
+    height: 100px;
+    float: none;
+    margin: auto;
+  }
+
+  .name {
+    font-size: 600%;
+  }
+
+  .work {
+    font-size: 60%;
+  }
+
+  .copyright {
+    font-size: 0.3rem;
+  }
+
+  .offer {
+    font-size: 0.6rem;
+  }
+}
